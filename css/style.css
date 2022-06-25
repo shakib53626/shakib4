@@ -1,0 +1,255 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+
+/* Header Part Start */
+
+
+.header{
+	width:100%;
+	margin-bottom: 80px;
+	background: white;
+	position: fixed;
+	box-shadow: rgb(0, 0, 0,0.1) 0px 5px 200px 20px;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.contant{
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo img{
+	width: 150px;
+}
+.navbar ul{
+	list-style: none;
+	line-height: 43px;
+	padding: 20px 0;
+}
+.navbar ul li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.navbar ul li a{
+	color: #8F8F8F;
+	font-size: 22px;
+	transition: .3s;
+}
+.navbar ul li a:hover{
+	color: #242F9B;
+	transition: .3s;
+}
+
+/* Header Part End */
+
+
+
+/* Banner Part Start */
+
+.banner{
+	width: 100%;
+	margin-bottom: 80px;
+	padding-top: 150px;
+}
+.banner-container{
+	width: 1140px;
+	margin: auto;
+	text-align: center;
+}
+.banner-container h1{
+	font-size: 50px;
+	font-weight: 600;
+	color: #0f2656;
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+.banner-container h1 span{
+	color: #008aff;
+
+}
+.banner-container p{
+	color: #0f2656;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+/* Banner Part End */
+
+
+/* Project Part Start */
+
+.project{
+	width: 100%;
+	margin-bottom: 80px;
+
+}
+.project-container{
+		width: 1140px;
+		margin: auto;
+}
+.project-contant{
+	display: flex;
+}
+.project-left{
+	text-align: right;
+	width: 50%;
+	margin-right:15px;
+}
+.project-left h2{
+	font-size: 50px;
+	color: red;
+}
+.project-left p{
+	font-size: 16px;
+	color: #0f2656;
+	font-weight: 300;
+}
+.project-right{
+	width: 50%;
+	margin-left: 15px;
+}
+.project-right h2{
+	font-size: 50px;
+	line-height: 1.2;
+	color: #0f2656;
+}
+
+/* Project Part End */
+
+
+
+/* services part Start */
+
+
+.services{
+	width: 100%;
+	margin-bottom: 80px;
+}
+.services-container{
+	width: 1140px;
+	margin: auto;
+}
+.services-contant{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 30px;
+}
+.bg-1{
+	background: #fdebed;
+}
+
+.s-item:hover{
+	box-shadow: rgba(0, 0, 0, 0.2) 8px 20px 7px;
+	background: white;
+}
+.bg-2{
+	background: #ebf9f4;
+}
+.bg-3{
+	background: #fff7e8;
+}
+.s-item{
+	padding: 30px 20px 40px 20px;
+}
+.s-item h5{
+	font-size: 22px;
+}
+.s-item p{
+	color: #0f2656;
+	font-size: 16px;
+	font-weight: 300;
+}
+/* services part End */
+
+
+
+/* Social Icon Part Start*/
+
+	.icon{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.social-icon{
+		display: block;
+		text-align: center;
+	}
+	.social-icon i{
+		height: 55px;
+		width: 55px;
+		text-align: center;
+		line-height: 55px;
+		font-size: 25px;
+		margin-left: 20px;
+		border-radius: 100%;
+		border: 1px solid gray;
+	}
+	.fa-facebook-f{
+		color: blue;
+
+	}
+	.fa-facebook-f:hover{
+		background: blue;
+		color: white;
+		border: 1px solid blue;
+	}
+	.fa-youtube{
+		color: red;
+	}
+	.fa-youtube:hover{
+		background: red;
+		color: white;
+		border: 1px solid red;
+
+	}
+	.fa-whatsapp{
+		color: green;
+	}
+	.fa-whatsapp:hover{
+		background: green;
+		color: white;
+		border: 1px solid green;
+	}
+	
+
+/* Social Icon Part End */
+
+
+
+
+/* Footer part Start */
+
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #008aff;
+	padding: 30px 0 30px 0;
+	margin-bottom: 20px;
+}
+.footer p{
+	color: white;
+	font-weight: 300;
+	font-size: 16px;
+}
+.footer p span{
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+
+/* Footer part End */
+
+
+
