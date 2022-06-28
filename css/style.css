@@ -31,6 +31,7 @@ a{
 }
 .logo img{
 	width: 150px;
+	margin-top: 8px;
 }
 .navbar ul{
 	list-style: none;
